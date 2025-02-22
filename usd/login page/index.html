@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup & Signin Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="signup" class="form">
+            <h1>Sign Up</h1>
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name" >
+            </div>
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Email Address" >
+            </div>
+            <div class="input-group">
+                <label for="country">Country</label>
+                <input type="text" id="country" name="country" placeholder="Country" >
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone" >
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password">
+            </div>
+            <button type="submit" >Create Account</button>
+        </form>
+
+        <form id="signin" class="form">
+            <h1>Sign In</h1>
+            <div class="input-group">
+                <label for="signin-name">Name</label>
+                <input type="text" id="signin-name" name="username" placeholder="Name" >
+            </div>
+            <div class="input-group">
+                <label for="signin-email">Email Address</label>
+                <input type="email" id="signin-email" name="email" placeholder="Email Address" >
+            </div>
+            <div class="input-group">
+                <label for="signin-password">Password</label>
+                <input type="password" id="signin-password" name="password" placeholder="Password" >
+            </div>
+            <button type="button"  >Signin</button>
+        </form>
+    </div>
+    </body>
+    <script src="./index.js"></script>
+</html>
